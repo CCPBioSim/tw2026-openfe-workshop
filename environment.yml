@@ -1,0 +1,7 @@
+name: openfe_demo
+channels:
+  -  conda-forge
+dependencies:
+  - openfe
+  - python == 3.12
+  - nglview
