@@ -5,3 +5,4 @@ dependencies:
   - openfe == 1.12
   - python == 3.12
   - nglview
+  - jupyter_contrib_nbextensions

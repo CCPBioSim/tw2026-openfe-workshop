@@ -1,0 +1,14 @@
+ligand_i	ligand_j	DDG(i->j) (kcal/mol)	uncertainty (kcal/mol)
+ligand_1	ligand_6	0.3	0.2
+ligand_12	ligand_13	-0.8	0.3
+ligand_13	ligand_14	0.28	0.09
+ligand_2	ligand_1	2.5	0.4
+ligand_2	ligand_5	0.5	0.2
+ligand_3	ligand_2	1.40	0.06
+ligand_4	ligand_5	0.72	0.10
+ligand_4	ligand_8	0.5	0.1
+ligand_6	ligand_11	-2.1	0.4
+ligand_6	ligand_12	0.70	0.06
+ligand_6	ligand_7	-1.8	0.2
+ligand_8	ligand_10	0.02	0.08
+ligand_9	ligand_10	0.28	0.07
