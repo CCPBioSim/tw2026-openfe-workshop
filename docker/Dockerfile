@@ -12,8 +12,9 @@ WORKDIR $HOME
 RUN conda install -y -c conda-forge \
     conda-forge::openfe=1.12 \
     conda-forge::nglview=4.0.1 \
-    conda-forge::ipywidgets=8.1.9 \
-    conda-forge::jupyter_contrib_nbextensions
+    conda-forge::ipywidgets=8.1.9 
+RUN pip install --no-cache-dir \
+    jupyter_contrib_nbextensions
 
 COPY docker/fix-nglview.sh /tmp/fix-nglview.sh
 RUN bash /tmp/fix-nglview.sh
